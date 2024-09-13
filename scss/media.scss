@@ -1,0 +1,338 @@
+@media(max-width:1300px) {
+  .signs__right {
+    h1 {
+      max-width: 290px !important;
+    }
+  }
+}
+
+@media(max-width:1200px) {
+  .achievements {
+
+    &__imgs {
+
+
+
+      &_dumbbell-left {
+        transform: scale(0.9) rotate(15deg);
+      }
+
+
+
+
+
+      &_dumbbell-right {
+        right: 80px;
+      }
+    }
+  }
+
+
+}
+
+@media(max-width:1000px) {
+
+  .sign {
+    position: static;
+  }
+
+  .signs {
+    position: absolute;
+    bottom: 0;
+    z-index: 99999;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding: 0 10px 10px;
+  }
+
+  .first__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .signs__left {
+    display: flex;
+    align-items: center;
+  }
+
+  .button__wrapper--main {
+    position: absolute;
+    top: -480px;
+    left: -50vw;
+  }
+
+
+  .achievements {
+
+
+    &__imgs {
+
+
+
+      &_dumbbell-left {
+        transform: scale(0.8) rotate(15deg);
+        left: -50px;
+      }
+
+
+
+      &_dumbbell-back {
+        left: 125px;
+
+      }
+
+
+
+      &_dumbbell-right {
+        right: 30px;
+        transform: scale(0.9) rotate(328deg);
+        top: 104px;
+      }
+    }
+  }
+}
+
+
+
+
+
+@media(max-width:860px) {}
+
+@media(max-width:700px) {
+
+  .achievements {
+
+    &__imgs {
+
+
+
+      &_dumbbell-left {
+        top: 100px;
+        transform: scale(0.7) rotate(15deg);
+      }
+
+
+
+      &_dumbbell-back {
+        transform: scale(0.8) rotate(287deg);
+        left: 0;
+
+      }
+
+
+
+      &_dumbbell-right {
+        transform: scale(0.7) rotate(328deg);
+      }
+    }
+  }
+}
+
+@media(max-width:650px) {
+
+
+
+
+  .achievements {
+
+    &__imgs {
+
+
+
+      &_dumbbell-left {
+        top: 88px;
+        transform: scale(0.6) rotate(15deg);
+        left: -85px;
+      }
+
+
+
+
+    }
+  }
+
+}
+
+@media(max-width:550px) {
+  .achievements {
+
+    &__imgs {
+
+
+
+      &_dumbbell-left {
+        transform: scale(0.55) rotate(15deg);
+        left: -95px;
+      }
+
+
+
+
+
+      &_dumbbell-right {
+        right: -6px;
+        top: 90px;
+      }
+    }
+  }
+}
+
+@media(max-width:505px) {
+  .sign {
+    font-size: 25px;
+  }
+
+
+  .achievements {
+
+    &__imgs {
+
+
+      &_dumbbell-right {
+        right: -38px;
+        transform: scale(0.65) rotate(328deg);
+      }
+    }
+  }
+}
+
+@media(max-width:426px) {
+  .first__man {
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    height: auto;
+    padding: 0 10px;
+
+    img {
+      height: auto;
+    }
+  }
+
+
+
+  .title {
+    font-size: 38px;
+  }
+
+  .achievements {
+
+    &__imgs {
+
+
+
+      &_dumbbell-left {
+        transform: scale(0.4) rotate(15deg);
+        top: 7px;
+        left: -139px;
+      }
+
+
+
+      &_dumbbell-back {
+        transform: scale(0.6) rotate(287deg);
+        left: -8px;
+      }
+
+
+
+      &_dumbbell-right {
+        transform: scale(0.5) rotate(328deg);
+        top: 36px;
+      }
+    }
+  }
+
+  .achievements-list_item {
+    width: 60%;
+  }
+
+  .modalWindow__wrapper {
+
+    width: 90%;
+  }
+
+  .modalWindow__item svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .modalWindow__close {
+    top: 5px;
+    right: 10px;
+  }
+
+
+}
+
+@media(max-width:400px) {
+  .sign {
+    font-size: 20px;
+  }
+
+  .button__wrapper--main {
+    top: -505px;
+    left: -45vw;
+  }
+}
+
+@media(max-width:370px) {
+
+
+
+  .title {
+    font-size: 33px;
+  }
+
+  .achievements {
+
+    &__imgs {
+
+
+
+
+
+      &_dumbbell-back {
+        transform: scale(0.5) rotate(287deg);
+        left: -49px;
+      }
+    }
+  }
+
+  .achievements-list_item {
+    width: 70%;
+  }
+}
+
+
+@media(max-width:320px) {
+  .achievements {
+
+    &__imgs {
+
+
+
+      &_dumbbell-left {
+        left: -121px;
+      }
+
+
+
+      &_dumbbell-back {
+        transform: scale(0.5) rotate(287deg);
+        left: -49px;
+      }
+
+
+
+      &_dumbbell-right {
+        top: 26px;
+        right: -53px;
+      }
+    }
+  }
+}
